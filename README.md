@@ -38,3 +38,7 @@ Index.js es el componente principal, es de ahí que se envian todos los componen
 
 Para los componentes se debe crear una carpeta dentro de src
 - componentes
+
+### Agenda
+
+- Las llaves {} nos permiten insertar codigo de javascript dentro de los JSX
