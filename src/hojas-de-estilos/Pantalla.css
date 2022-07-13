@@ -1,0 +1,17 @@
+.input {
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;/*suelta al elemento para poder posicionarlo*/
+    justify-content: flex-end;/*el elemento se ordenara horizontalmente al final*/
+    align-items: center;/*se centra verticalmente*/
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;
+    color: white; /*color del texto*/
+    padding: 11px 30px 11px 11px; /*para que no se pegue al borde en todos sus lados*/
+    /*       top  end  bott left*/
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white; /*sombra para el contenedor*/
+    /*          top  end bot left  color */
+}

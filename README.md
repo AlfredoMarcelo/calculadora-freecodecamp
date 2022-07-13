@@ -53,4 +53,25 @@ Para los componentes se debe crear una carpeta dentro de src
 
 - .trimEnd(), permite eliminar espacios al final de una cadena
 
-- CSS => user-select: none;, permite que el texto no se pueda seleccionar con el boton, efectivo al querer hacer botones
+- declarar componentes con funcion flecha, se utiliza una variable const, se utiliza para componentes simples. Ej: 
+`const Pantalla = ({ input }) => (
+  <div className='input'>
+    {input}
+  </div>
+);`
+
+export default Pantalla;
+
+- cuando se agregue un componente hijo, si no se va a agregar un valor, no es necesario declarar el componentes con etiqueta de apertura y de cierre. Ej: <Pantalla/>
+
+- recordar exportar el componente y en el padre importarlo
+
+#### CSS => 
+- user-select: none;, permite que el texto no se pueda seleccionar con el boton, efectivo al querer hacer botones
+
+- flex: 1 1;,
+ esta propiedad esta definida en flexbox, para distribuir el espacio de forma equitativa
+
+ -  padding: 11px 30px 11px 11px;, para que no se pegue al borde en todos sus lados. Las 4 declaraciones van en orden => arriba, derecha, abajo, izquierda
+
+ - box-shadow: -1px 4px 1px 1px white;, para hacer sombras

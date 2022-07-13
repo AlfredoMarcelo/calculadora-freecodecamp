@@ -1,6 +1,7 @@
 .boton-contenedor {
   height: 83px;
   display: flex;/*permite soltar el elemento y asi poder aplicar el centrado vertical y horizontal*/
+  flex: 1 1;/*esta propiedad esta definida en flexbox, para distribuir el espacio de forma equitativa*/
   justify-content: center;/*para centrar horizontalmente*/
   align-items: center;/*para centrar verticalmente*/
   font-weight: bold; /*peso de fuente, o que sea mas o menos negrita*/
@@ -12,4 +13,15 @@
   margin: 4px;
   cursor: pointer;/*para que sea una mano y no una flecha*/
   user-select: none; /*permite que el texto no se pueda seleccionar con el boton****/
+}
+
+.boton-contenedor:hover {
+  background-color: #5a01a7;
+}
+.operador {
+  background-color:#00471b
+}
+
+.operador:hover {
+  background-color: #ff6600;
 }
