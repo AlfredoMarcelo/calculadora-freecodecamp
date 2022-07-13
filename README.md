@@ -42,3 +42,15 @@ Para los componentes se debe crear una carpeta dentro de src
 ### Agenda
 
 - Las llaves {} nos permiten insertar codigo de javascript dentro de los JSX
+
+- {props.children}, son los hijos o todo lo que este dentro de un div. En el ejercicio cuando se declara el componente Boton, se declara el numero 1, 1 vendría siendo el children del componente Boton.
+
+- ``, para crear plantillas literales
+
+- isNaN(), Not-A-Number (no es un número) sirve para verificar si el valor ingresado dentro del metodo es o no un numero, si se ingresa isNaN(2) el resultado será "false", porque si es un número.
+
+- `return isNaN(valor) && (valor != '.') && (valor != '=');`, dentro de un return se puede ingresar estas condiciones con &&, destacar que van con parentesis para mejor lectura
+
+- .trimEnd(), permite eliminar espacios al final de una cadena
+
+- CSS => user-select: none;, permite que el texto no se pueda seleccionar con el boton, efectivo al querer hacer botones

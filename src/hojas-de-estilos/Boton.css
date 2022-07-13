@@ -1,0 +1,15 @@
+.boton-contenedor {
+  height: 83px;
+  display: flex;/*permite soltar el elemento y asi poder aplicar el centrado vertical y horizontal*/
+  justify-content: center;/*para centrar horizontalmente*/
+  align-items: center;/*para centrar verticalmente*/
+  font-weight: bold; /*peso de fuente, o que sea mas o menos negrita*/
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;/*para redondear border*/
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;/*para que sea una mano y no una flecha*/
+  user-select: none; /*permite que el texto no se pueda seleccionar con el boton****/
+}
