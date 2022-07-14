@@ -1,0 +1,19 @@
+.boton-clear {
+  height: 80px;
+  font-size: 1.6em;/*unidad em es una unidad relativa, va a ser 1.6 veces el tamaño de la letra de su contenedor, se ajustara automaticamente  */
+  display: flex;
+  flex: 1; /*al ser uno, ocupara todo el espacio del contenedor*/
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 45px;
+  cursor: pointer;/*pra que sea manito*/
+}
+
+.boton-clear:hover{
+  background-color: #ebb000;
+}

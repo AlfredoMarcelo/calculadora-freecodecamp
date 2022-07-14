@@ -66,6 +66,24 @@ export default Pantalla;
 
 - recordar exportar el componente y en el padre importarlo
 
+- si no se agrega el return en la funcion del componente, no arrojará error, pero no se podra visualizar el componente aunque se haya exportado
+
+- cuando se define un componente funcional con la variable const, nos aseguramos que no pueda ser declarado otro componente con el mismo nombre
+
+- `onClick={props.manejarClic(props.children)}>, esto es una llamada a una función, no retornara el resultado que buscamos.`
+
+- `onClick={() => props.manejarClic(props.children)}>, esto es una ejecucion de la función y si realizará la operación. Aqui se esta usando una funcion anonima, una funcion nueva`
+al agregar ()=>, le dice a react o js que queremos que se llame a la función,  onClick es una función que espera llamar a otra función, por eso se agrega "() =>" se esta haciendo  min 5:01:00
+
+
+- Las cadenas de caracteres o string vacias '' son FALSAS
+
+- Las cadenas de carateres o string con letra son VERDADERAS
+
+- Se uso la librería mathJs, se instala desde la carpeta principal del proyecto con el siguiente codigo => npm mathjs install
+
+- npm => node package manager
+
 #### CSS => 
 - user-select: none;, permite que el texto no se pueda seleccionar con el boton, efectivo al querer hacer botones
 
